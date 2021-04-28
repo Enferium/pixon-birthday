@@ -67,10 +67,21 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "id": "3ad19741-9def-4aa5-a9ba-0bed93100213",
-            "x": 583,
-            "y": 189,
+            "x": 557,
+            "y": 134,
             "actors": [],
-            "triggers": []
+            "triggers": [
+                {
+                    "name": "",
+                    "trigger": "walk",
+                    "script": [],
+                    "id": "68485daf-037d-4bf7-90f2-29897afae4d6",
+                    "x": 8,
+                    "y": 10,
+                    "width": 1,
+                    "height": 1
+                }
+            ]
         }
     ],
     "backgrounds": [
