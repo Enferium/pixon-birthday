@@ -2,77 +2,8 @@
     "name": "pixon-birthday",
     "author": "brila",
     "_version": "2.0.0",
-    "_release": "6",
-    "scenes": [
-        {
-            "name": "Scene 1",
-            "backgroundId": "72e56524-b30d-4fad-8b33-3e2e5d18a49a",
-            "width": 20,
-            "height": 18,
-            "type": "0",
-            "paletteIds": [],
-            "collisions": [],
-            "tileColors": [],
-            "script": [
-                {
-                    "id": "d3a39c25-cf0a-49f8-a910-6347e4284908",
-                    "command": "EVENT_ACTOR_HIDE",
-                    "args": {
-                        "actorId": "$self$"
-                    }
-                },
-                {
-                    "id": "8e24766d-3a7b-4012-88e3-2ec8a12caac7",
-                    "command": "EVENT_WAIT",
-                    "args": {
-                        "time": 0.5
-                    }
-                },
-                {
-                    "id": "997281ef-ef6a-405b-8490-7d06fe22db9f",
-                    "command": "EVENT_SWITCH_SCENE",
-                    "args": {
-                        "sceneId": "3ad19741-9def-4aa5-a9ba-0bed93100213",
-                        "x": 0,
-                        "y": 0,
-                        "direction": "",
-                        "fadeSpeed": "2"
-                    }
-                },
-                {
-                    "id": "15e9b2ca-b427-4a8d-93ce-166128f89a49",
-                    "command": "EVENT_END"
-                }
-            ],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "b0133ee6-bccc-4441-80ca-582becdf431b",
-            "x": 289,
-            "y": 120,
-            "actors": [],
-            "triggers": []
-        },
-        {
-            "name": "Scene 2",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "width": 20,
-            "height": 18,
-            "type": "0",
-            "paletteIds": [],
-            "collisions": [],
-            "tileColors": [],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": [],
-            "id": "3ad19741-9def-4aa5-a9ba-0bed93100213",
-            "x": 583,
-            "y": 189,
-            "actors": [],
-            "triggers": []
-        }
-    ],
+    "_release": "2",
+    "scenes": [],
     "backgrounds": [
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -82,39 +13,17 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "placeholder.png",
-            "inode": "2533274791230034",
-            "_v": 1619637761912
-        },
-        {
-            "id": "72e56524-b30d-4fad-8b33-3e2e5d18a49a",
-            "name": "splashscreen",
-            "width": 20,
-            "height": 18,
-            "imageWidth": 160,
-            "imageHeight": 144,
-            "filename": "splashscreen.png",
-            "inode": "562949954254164",
-            "_v": 1619637900014
+            "_v": 1600506915514
         }
     ],
     "spriteSheets": [
-        {
-            "id": "aaa6b6a4-29b2-4363-b3ad-155ff590a741",
-            "name": "Sans titre-3",
-            "numFrames": 1,
-            "type": "static",
-            "filename": "Sans titre-3.png",
-            "inode": "36310271995720740",
-            "_v": 1619637883123
-        },
         {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
             "name": "actor",
             "numFrames": 3,
             "type": "actor",
             "filename": "actor.png",
-            "inode": "3096224744653405",
-            "_v": 1619637761912
+            "_v": 1600506915514
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -122,17 +31,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "actor_animated.png",
-            "inode": "1407374884389472",
-            "_v": 1619637761912
-        },
-        {
-            "id": "f441affd-304d-4528-b72b-3156481275be",
-            "name": "pixonrun",
-            "numFrames": 6,
-            "type": "actor_animated",
-            "filename": "pixonrun.png",
-            "inode": "3377699721299277",
-            "_v": 1619637876616
+            "_v": 1600506915514
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -140,8 +39,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "static.png",
-            "inode": "1407374884389474",
-            "_v": 1619637761912
+            "_v": 1600506915514
         }
     ],
     "palettes": [
@@ -289,32 +187,20 @@
             "name": "template",
             "filename": "template.mod",
             "settings": {},
-            "inode": "3096224744651438",
-            "_v": 1619637761906
+            "_v": 1600506915511
         }
     ],
     "variables": [],
-    "engineFieldValues": [
-        {
-            "id": "fade_style",
-            "value": 0
-        }
-    ],
     "settings": {
         "startSceneId": "",
-        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
         "startX": 9,
         "startY": 9,
-        "startMoveSpeed": 1,
-        "startAnimSpeed": 3,
-        "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
         "worldScrollY": 0,
         "zoom": 100,
         "customColorsEnabled": false,
-        "customHead": "",
         "defaultBackgroundPaletteIds": [
             "default-bg-1",
             "default-bg-2",
@@ -325,13 +211,8 @@
         ],
         "defaultSpritePaletteId": "default-sprite",
         "defaultUIPaletteId": "default-ui",
-        "playerPaletteId": "",
-        "navigatorSplitSizes": [
-            574,
-            191,
-            191
-        ],
-        "showNavigator": true,
-        "defaultFadeStyle": "white"
+        "defaultFadeStyle": "white",
+        "startDirection": "down",
+        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
     }
 }
